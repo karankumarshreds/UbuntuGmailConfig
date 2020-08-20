@@ -5,9 +5,11 @@ Make sure postfix is install in your server, if not then use the following comma
 > apt install mailutils
 
 Select *internet site* during the first installation prompt: 
+
 <img src="https://github.com/karankumarshreds/UbuntuGmailConfig/blob/images/first-prompt.PNG" width="400" alt="prompt"/>
 
 Set the mail name. Mail name specifies the domain part that is used in a mail ID, e.g example.com for an email ID:
+
 <img src="https://github.com/karankumarshreds/UbuntuGmailConfig/blob/images/second-prompt.PNG" width="400" alt="prompt" />
 
 You can always reconfigure Postfix by running the command below:
@@ -78,3 +80,6 @@ To verify that all is well, send the test mail as shown below;
 echo "Test Postfix Gmail Relay" | mail -s "Postfix Gmail Relay" userid@gmail.com
 ```
 
+### NOTE
+Login to your gmail account and go to security settings and *give access to less sucure apps*.
+Secondly, go to this link and allow : https://accounts.google.com/b/0/DisplayUnlockCaptcha
