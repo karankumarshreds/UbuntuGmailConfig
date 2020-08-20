@@ -1,5 +1,7 @@
 ## Ubuntu Postfix Gmail Configuration
 
+<p align="center"><img src="https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg" width="500"/></p>
+
 #### Configure Postfix to Use Gmail SMTP on Ubuntu 18.04
 Make sure postfix is install in your server, if not then use the following command: 
 > apt install mailutils
