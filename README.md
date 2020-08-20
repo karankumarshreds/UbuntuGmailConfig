@@ -6,6 +6,5 @@
 apt install mailutils
 ```
 - Select *internet site* during the first installation prompt: 
-<img src="" width="300"/>
 
-
+<img src="https://github.com/karankumarshreds/UbuntuGmailConfig/blob/images/first-prompt.PNG" width="500" alt="prompt"/>
