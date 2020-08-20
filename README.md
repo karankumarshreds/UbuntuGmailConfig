@@ -82,4 +82,7 @@ echo "Test Postfix Gmail Relay" | mail -s "Postfix Gmail Relay" userid@gmail.com
 
 ### NOTE
 Login to your gmail account and go to security settings and *give access to less sucure apps*.
+
 Secondly, go to this link and allow : https://accounts.google.com/b/0/DisplayUnlockCaptcha
+
+Thirdly, make sure the domain you selected while setting up in the initial steps is **different** from the domain **to** which you are sending emails.
